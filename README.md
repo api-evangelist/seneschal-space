@@ -1,4 +1,4 @@
-# seneschal-space
+# Seneschal
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-seneschal-space is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://seneschal.space/
+Seneschal provides Monero and Zcash payment webhooks, x402 data services, and a suite of agent‑centric tools. It offers read‑only webhook notifications when payments land, a Gopher‑style service index, and various utilities for agents and MCP developers, all without requiring accounts or API keys. The platform supports USDC, XMR, and ZEC payments, and includes documentation, status pages, and open APIs for integration.
+
+**Areas:** Payments · Webhooks · Cryptocurrency · AgentTools · OpenAPI
+
+## Seneschal on APIs.io
+
+Everything profiled for Seneschal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/seneschal-space/](https://apis.io/providers/seneschal-space/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Seneschal Privacy Payments API](https://apis.io/apis/seneschal-space/seneschal-privacy-payments-api/) — Monero & Zcash payment infrastructure for agents and merchants, providing view‑key payment webhooks and data services.
+- [Seneschal API](https://apis.io/apis/seneschal-space/seneschal-space-api/) — Seneschal API as documented publicly: 42 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostV1PrivateHistoricalRequest](https://apis.io/schemas/seneschal-space/seneschal-space-post-v1-private-historical-request/)
+- [PostV1PrivateHistoricalResponse](https://apis.io/schemas/seneschal-space/seneschal-space-post-v1-private-historical-response/)
+- [PostV1PrivateTopupCustomRequest](https://apis.io/schemas/seneschal-space/seneschal-space-post-v1-private-topup-custom-request/)
+- [PostV1PrivateTopup1Request](https://apis.io/schemas/seneschal-space/seneschal-space-post-v1-private-topup1-request/)
+- [PostV1PrivateWatchRequest](https://apis.io/schemas/seneschal-space/seneschal-space-post-v1-private-watch-request/)
+- [PostV1PrivateWatchResponse](https://apis.io/schemas/seneschal-space/seneschal-space-post-v1-private-watch-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Seneschal Space Context](https://apis.io/jsonld/seneschal-space/seneschal-space-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Seneschal API Rules](https://apis.io/rules/seneschal-space/seneschal-space-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Seneschal Domain Security](https://apis.io/security/seneschal-space/seneschal-space-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://seneschal.space/)
+- [Documentation](https://docs.seneschal.space/)
+- [API reference](https://api.seneschal.space/openapi.json)
+- [Terms of service](https://seneschal.space/terms.html)
+- [Privacy policy](https://seneschal.space/privacy.html)
+- [Status](https://status.seneschal.space)
+
+## API Evangelist rating
+
+**Kin Score 36.2** — thin · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 49.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 17.0 |
+
+**Agent readiness 21.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 11.6** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/seneschal-space/](https://apis.io/providers/seneschal-space/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Seneschal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/seneschal-space/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
